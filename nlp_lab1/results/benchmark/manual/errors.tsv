@@ -1,0 +1,10 @@
+sent_id	token_no	form	gold_lemma	pred_lemma	gold_pos	pred_pos	source
+manual-006	1	Мой	мыть	мой	VERB	DET	DICT
+manual-016	5	полку	полка	полк	NOUN	NOUN	DICT
+manual-023	3	лабубами	лабуба	лабуб	NOUN	NOUN	OOV
+manual-028	4	лабубы	лабуба	лабубы	NOUN	X	FALLBACK
+manual-030	2	мем	мем	мем	NOUN	X	FALLBACK
+manual-031	1	Лабуба	лабуба	лабуба	NOUN	PROPN	FALLBACK
+manual-035	3	увереннее	уверенный	уверенний	ADJ	ADJ	OOV
+manual-040	2	Гришины	гришин	гришина	ADJ	NOUN	OOV
+manual-040	20	Пахры	Пахра	пахры	PROPN	PROPN	FALLBACK

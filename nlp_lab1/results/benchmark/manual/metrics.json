@@ -1,0 +1,127 @@
+{
+  "sentences": 40,
+  "tokens": 188,
+  "lemma_accuracy": 96.28,
+  "pos_accuracy": 97.34,
+  "pair_accuracy": 95.21,
+  "lemma_correct": 181,
+  "pos_correct": 183,
+  "pair_correct": 179,
+  "errors_count": 9,
+  "by_pos": {
+    "ADJ": {
+      "tokens": 21,
+      "lemma_accuracy": 90.48,
+      "pos_accuracy": 95.24,
+      "pair_accuracy": 90.48
+    },
+    "ADP": {
+      "tokens": 16,
+      "lemma_accuracy": 100.0,
+      "pos_accuracy": 100.0,
+      "pair_accuracy": 100.0
+    },
+    "ADV": {
+      "tokens": 17,
+      "lemma_accuracy": 100.0,
+      "pos_accuracy": 100.0,
+      "pair_accuracy": 100.0
+    },
+    "AUX": {
+      "tokens": 1,
+      "lemma_accuracy": 100.0,
+      "pos_accuracy": 100.0,
+      "pair_accuracy": 100.0
+    },
+    "CCONJ": {
+      "tokens": 1,
+      "lemma_accuracy": 100.0,
+      "pos_accuracy": 100.0,
+      "pair_accuracy": 100.0
+    },
+    "DET": {
+      "tokens": 6,
+      "lemma_accuracy": 100.0,
+      "pos_accuracy": 100.0,
+      "pair_accuracy": 100.0
+    },
+    "NOUN": {
+      "tokens": 61,
+      "lemma_accuracy": 95.08,
+      "pos_accuracy": 95.08,
+      "pair_accuracy": 91.8
+    },
+    "NUM": {
+      "tokens": 1,
+      "lemma_accuracy": 100.0,
+      "pos_accuracy": 100.0,
+      "pair_accuracy": 100.0
+    },
+    "PART": {
+      "tokens": 4,
+      "lemma_accuracy": 100.0,
+      "pos_accuracy": 100.0,
+      "pair_accuracy": 100.0
+    },
+    "PRON": {
+      "tokens": 16,
+      "lemma_accuracy": 100.0,
+      "pos_accuracy": 100.0,
+      "pair_accuracy": 100.0
+    },
+    "PROPN": {
+      "tokens": 1,
+      "lemma_accuracy": 0.0,
+      "pos_accuracy": 100.0,
+      "pair_accuracy": 0.0
+    },
+    "VERB": {
+      "tokens": 43,
+      "lemma_accuracy": 97.67,
+      "pos_accuracy": 97.67,
+      "pair_accuracy": 97.67
+    }
+  },
+  "by_source": {
+    "DICT": {
+      "tokens": 172,
+      "lemma_accuracy": 98.84,
+      "pos_accuracy": 99.42,
+      "pair_accuracy": 98.84
+    },
+    "FALLBACK": {
+      "tokens": 4,
+      "lemma_accuracy": 50.0,
+      "pos_accuracy": 25.0,
+      "pair_accuracy": 0.0
+    },
+    "OOV": {
+      "tokens": 12,
+      "lemma_accuracy": 75.0,
+      "pos_accuracy": 91.67,
+      "pair_accuracy": 75.0
+    }
+  },
+  "common_pos_confusions": [
+    {
+      "gold": "NOUN",
+      "pred": "X",
+      "count": 2
+    },
+    {
+      "gold": "VERB",
+      "pred": "DET",
+      "count": 1
+    },
+    {
+      "gold": "NOUN",
+      "pred": "PROPN",
+      "count": 1
+    },
+    {
+      "gold": "ADJ",
+      "pred": "NOUN",
+      "count": 1
+    }
+  ]
+}

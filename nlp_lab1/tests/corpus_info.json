@@ -1,0 +1,12 @@
+{
+  "source": "UD Russian SynTagRus test split",
+  "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Russian-SynTagRus/master/ru_syntagrus-ud-test.conllu",
+  "source_sha256": "97f473474d1aa8c007572cd122f90030bc7dc1707579d56b0b354c19b64af258",
+  "seed": 1629,
+  "sentence_count": 500,
+  "token_count": 6559,
+  "eligible_sentences": 3652,
+  "min_words": 5,
+  "max_words": 35,
+  "license": "CC BY-NC-SA 4.0 (verify with source repository for version)"
+}
