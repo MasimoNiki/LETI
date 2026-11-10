@@ -1,0 +1,1871 @@
+[
+  {
+    "line": 1,
+    "query": "найди все ароматы",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "найди",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "token": "все",
+          "kind": "WORD",
+          "column": 7
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 11
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 2,
+    "query": "покажи древесные ароматы",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "покажи",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Семейство",
+          "children": [
+            {
+              "token": "древесные",
+              "kind": "WORD",
+              "column": 8
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 18
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 3,
+    "query": "найди ароматы бренда \"Dior\"",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "найди",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 7
+            }
+          ]
+        },
+        {
+          "label": "Бренд",
+          "children": [
+            {
+              "token": "бренда",
+              "kind": "WORD",
+              "column": 15
+            },
+            {
+              "label": "Название бренда",
+              "children": [
+                {
+                  "token": "\"Dior\"",
+                  "kind": "STRING",
+                  "column": 22
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 4,
+    "query": "выведи ароматы с нотой кедра",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "выведи",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 8
+            }
+          ]
+        },
+        {
+          "label": "Условие нот",
+          "children": [
+            {
+              "token": "с",
+              "kind": "WORD",
+              "column": 16
+            },
+            {
+              "token": "нотой",
+              "kind": "WORD",
+              "column": 18
+            },
+            {
+              "label": "Нота",
+              "children": [
+                {
+                  "token": "кедра",
+                  "kind": "WORD",
+                  "column": 24
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 5,
+    "query": "найди ароматы с нотами розы и жасмина",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "найди",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 7
+            }
+          ]
+        },
+        {
+          "label": "Условие нот",
+          "children": [
+            {
+              "token": "с",
+              "kind": "WORD",
+              "column": 15
+            },
+            {
+              "token": "нотами",
+              "kind": "WORD",
+              "column": 17
+            },
+            {
+              "label": "Список нот",
+              "children": [
+                {
+                  "label": "Нота",
+                  "children": [
+                    {
+                      "token": "розы",
+                      "kind": "WORD",
+                      "column": 24
+                    }
+                  ]
+                },
+                {
+                  "token": "и",
+                  "kind": "WORD",
+                  "column": 29
+                },
+                {
+                  "label": "Нота",
+                  "children": [
+                    {
+                      "token": "жасмина",
+                      "kind": "WORD",
+                      "column": 31
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 6,
+    "query": "покажи ароматы без ванили",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "покажи",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 8
+            }
+          ]
+        },
+        {
+          "label": "Условие нот",
+          "children": [
+            {
+              "token": "без",
+              "kind": "WORD",
+              "column": 16
+            },
+            {
+              "label": "Перечень нот",
+              "children": [
+                {
+                  "label": "Нота",
+                  "children": [
+                    {
+                      "token": "ванили",
+                      "kind": "WORD",
+                      "column": 20
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 7,
+    "query": "найди свежие ароматы для лета",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "найди",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Семейство",
+          "children": [
+            {
+              "token": "свежие",
+              "kind": "WORD",
+              "column": 7
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 14
+            }
+          ]
+        },
+        {
+          "label": "Сезон",
+          "children": [
+            {
+              "token": "для",
+              "kind": "WORD",
+              "column": 22
+            },
+            {
+              "label": "Название сезона",
+              "children": [
+                {
+                  "token": "лета",
+                  "kind": "WORD",
+                  "column": 26
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 8,
+    "query": "покажи ароматы от 5000 до 15000 рублей",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "покажи",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 8
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "children": [
+            {
+              "token": "от",
+              "kind": "WORD",
+              "column": 16
+            },
+            {
+              "label": "Число",
+              "children": [
+                {
+                  "token": "5000",
+                  "kind": "NUMBER",
+                  "column": 19
+                }
+              ]
+            },
+            {
+              "token": "до",
+              "kind": "WORD",
+              "column": 24
+            },
+            {
+              "label": "Число",
+              "children": [
+                {
+                  "token": "15000",
+                  "kind": "NUMBER",
+                  "column": 27
+                }
+              ]
+            },
+            {
+              "token": "рублей",
+              "kind": "WORD",
+              "column": 33
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 9,
+    "query": "найди древесные ароматы бренда \"Dior\" с нотами кедра и бергамота для осени дешевле 15000 рублей",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "найди",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Семейство",
+          "children": [
+            {
+              "token": "древесные",
+              "kind": "WORD",
+              "column": 7
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 17
+            }
+          ]
+        },
+        {
+          "label": "Бренд",
+          "children": [
+            {
+              "token": "бренда",
+              "kind": "WORD",
+              "column": 25
+            },
+            {
+              "label": "Название бренда",
+              "children": [
+                {
+                  "token": "\"Dior\"",
+                  "kind": "STRING",
+                  "column": 32
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Условие нот",
+          "children": [
+            {
+              "token": "с",
+              "kind": "WORD",
+              "column": 39
+            },
+            {
+              "token": "нотами",
+              "kind": "WORD",
+              "column": 41
+            },
+            {
+              "label": "Список нот",
+              "children": [
+                {
+                  "label": "Нота",
+                  "children": [
+                    {
+                      "token": "кедра",
+                      "kind": "WORD",
+                      "column": 48
+                    }
+                  ]
+                },
+                {
+                  "token": "и",
+                  "kind": "WORD",
+                  "column": 54
+                },
+                {
+                  "label": "Нота",
+                  "children": [
+                    {
+                      "token": "бергамота",
+                      "kind": "WORD",
+                      "column": 56
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Сезон",
+          "children": [
+            {
+              "token": "для",
+              "kind": "WORD",
+              "column": 66
+            },
+            {
+              "label": "Название сезона",
+              "children": [
+                {
+                  "token": "осени",
+                  "kind": "WORD",
+                  "column": 70
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "children": [
+            {
+              "token": "дешевле",
+              "kind": "WORD",
+              "column": 76
+            },
+            {
+              "label": "Число",
+              "children": [
+                {
+                  "token": "15000",
+                  "kind": "NUMBER",
+                  "column": 84
+                }
+              ]
+            },
+            {
+              "token": "рублей",
+              "kind": "WORD",
+              "column": 90
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 10,
+    "query": "найди ароматы",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "найди",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 11,
+    "query": "ВЫВЕДИ ВСЕ ЦВЕТОЧНЫЕ АРОМАТЫ",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "ВЫВЕДИ",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "token": "ВСЕ",
+          "kind": "WORD",
+          "column": 8
+        },
+        {
+          "label": "Семейство",
+          "children": [
+            {
+              "token": "ЦВЕТОЧНЫЕ",
+              "kind": "WORD",
+              "column": 12
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "АРОМАТЫ",
+              "kind": "WORD",
+              "column": 22
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 12,
+    "query": "покажи цитрусовые ароматы с нотой бергамота дороже 3000 рублей",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "покажи",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Семейство",
+          "children": [
+            {
+              "token": "цитрусовые",
+              "kind": "WORD",
+              "column": 8
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 19
+            }
+          ]
+        },
+        {
+          "label": "Условие нот",
+          "children": [
+            {
+              "token": "с",
+              "kind": "WORD",
+              "column": 27
+            },
+            {
+              "token": "нотой",
+              "kind": "WORD",
+              "column": 29
+            },
+            {
+              "label": "Нота",
+              "children": [
+                {
+                  "token": "бергамота",
+                  "kind": "WORD",
+                  "column": 35
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "children": [
+            {
+              "token": "дороже",
+              "kind": "WORD",
+              "column": 45
+            },
+            {
+              "label": "Число",
+              "children": [
+                {
+                  "token": "3000",
+                  "kind": "NUMBER",
+                  "column": 52
+                }
+              ]
+            },
+            {
+              "token": "рублей",
+              "kind": "WORD",
+              "column": 57
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 13,
+    "query": "найди восточные ароматы без ванили и мускуса для зимы",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "найди",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Семейство",
+          "children": [
+            {
+              "token": "восточные",
+              "kind": "WORD",
+              "column": 7
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 17
+            }
+          ]
+        },
+        {
+          "label": "Условие нот",
+          "children": [
+            {
+              "token": "без",
+              "kind": "WORD",
+              "column": 25
+            },
+            {
+              "label": "Перечень нот",
+              "children": [
+                {
+                  "label": "Нота",
+                  "children": [
+                    {
+                      "token": "ванили",
+                      "kind": "WORD",
+                      "column": 29
+                    }
+                  ]
+                },
+                {
+                  "token": "и",
+                  "kind": "WORD",
+                  "column": 36
+                },
+                {
+                  "label": "Нота",
+                  "children": [
+                    {
+                      "token": "мускуса",
+                      "kind": "WORD",
+                      "column": 38
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Сезон",
+          "children": [
+            {
+              "token": "для",
+              "kind": "WORD",
+              "column": 46
+            },
+            {
+              "label": "Название сезона",
+              "children": [
+                {
+                  "token": "зимы",
+                  "kind": "WORD",
+                  "column": 50
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 14,
+    "query": "покажи все свежие ароматы бренда \"Jo Malone London\" для весны",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "покажи",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "token": "все",
+          "kind": "WORD",
+          "column": 8
+        },
+        {
+          "label": "Семейство",
+          "children": [
+            {
+              "token": "свежие",
+              "kind": "WORD",
+              "column": 12
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 19
+            }
+          ]
+        },
+        {
+          "label": "Бренд",
+          "children": [
+            {
+              "token": "бренда",
+              "kind": "WORD",
+              "column": 27
+            },
+            {
+              "label": "Название бренда",
+              "children": [
+                {
+                  "token": "\"Jo Malone London\"",
+                  "kind": "STRING",
+                  "column": 34
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Сезон",
+          "children": [
+            {
+              "token": "для",
+              "kind": "WORD",
+              "column": 53
+            },
+            {
+              "label": "Название сезона",
+              "children": [
+                {
+                  "token": "весны",
+                  "kind": "WORD",
+                  "column": 57
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 15,
+    "query": "найди ароматы с нотами кедра и ветивера и сандала",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "найди",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 7
+            }
+          ]
+        },
+        {
+          "label": "Условие нот",
+          "children": [
+            {
+              "token": "с",
+              "kind": "WORD",
+              "column": 15
+            },
+            {
+              "token": "нотами",
+              "kind": "WORD",
+              "column": 17
+            },
+            {
+              "label": "Список нот",
+              "children": [
+                {
+                  "label": "Нота",
+                  "children": [
+                    {
+                      "token": "кедра",
+                      "kind": "WORD",
+                      "column": 24
+                    }
+                  ]
+                },
+                {
+                  "token": "и",
+                  "kind": "WORD",
+                  "column": 30
+                },
+                {
+                  "label": "Нота",
+                  "children": [
+                    {
+                      "token": "ветивера",
+                      "kind": "WORD",
+                      "column": 32
+                    }
+                  ]
+                },
+                {
+                  "token": "и",
+                  "kind": "WORD",
+                  "column": 41
+                },
+                {
+                  "label": "Нота",
+                  "children": [
+                    {
+                      "token": "сандала",
+                      "kind": "WORD",
+                      "column": 43
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 16,
+    "query": "найди ароматы без розы и жасмина и ванили",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "найди",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 7
+            }
+          ]
+        },
+        {
+          "label": "Условие нот",
+          "children": [
+            {
+              "token": "без",
+              "kind": "WORD",
+              "column": 15
+            },
+            {
+              "label": "Перечень нот",
+              "children": [
+                {
+                  "label": "Нота",
+                  "children": [
+                    {
+                      "token": "розы",
+                      "kind": "WORD",
+                      "column": 19
+                    }
+                  ]
+                },
+                {
+                  "token": "и",
+                  "kind": "WORD",
+                  "column": 24
+                },
+                {
+                  "label": "Нота",
+                  "children": [
+                    {
+                      "token": "жасмина",
+                      "kind": "WORD",
+                      "column": 26
+                    }
+                  ]
+                },
+                {
+                  "token": "и",
+                  "kind": "WORD",
+                  "column": 34
+                },
+                {
+                  "label": "Нота",
+                  "children": [
+                    {
+                      "token": "ванили",
+                      "kind": "WORD",
+                      "column": 36
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 17,
+    "query": "покажи ароматы дешевле 0 рублей",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "покажи",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 8
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "children": [
+            {
+              "token": "дешевле",
+              "kind": "WORD",
+              "column": 16
+            },
+            {
+              "label": "Число",
+              "children": [
+                {
+                  "token": "0",
+                  "kind": "NUMBER",
+                  "column": 24
+                }
+              ]
+            },
+            {
+              "token": "рублей",
+              "kind": "WORD",
+              "column": 26
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 18,
+    "query": "найди ароматы бренда \"Новый бренд 2026\"",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "найди",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 7
+            }
+          ]
+        },
+        {
+          "label": "Бренд",
+          "children": [
+            {
+              "token": "бренда",
+              "kind": "WORD",
+              "column": 15
+            },
+            {
+              "label": "Название бренда",
+              "children": [
+                {
+                  "token": "\"Новый бренд 2026\"",
+                  "kind": "STRING",
+                  "column": 22
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 19,
+    "query": "  Найди   ароматы   с нотой ВАНИЛИ  ",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "Найди",
+              "kind": "WORD",
+              "column": 3
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 11
+            }
+          ]
+        },
+        {
+          "label": "Условие нот",
+          "children": [
+            {
+              "token": "с",
+              "kind": "WORD",
+              "column": 21
+            },
+            {
+              "token": "нотой",
+              "kind": "WORD",
+              "column": 23
+            },
+            {
+              "label": "Нота",
+              "children": [
+                {
+                  "token": "ВАНИЛИ",
+                  "kind": "WORD",
+                  "column": 29
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 20,
+    "query": "выведи ароматы бренда \"Tom Ford\" без мускуса для осени от 10000 до 20000 рублей",
+    "success": true,
+    "tree": {
+      "label": "Запрос",
+      "children": [
+        {
+          "label": "Команда",
+          "children": [
+            {
+              "token": "выведи",
+              "kind": "WORD",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "label": "Объект",
+          "children": [
+            {
+              "token": "ароматы",
+              "kind": "WORD",
+              "column": 8
+            }
+          ]
+        },
+        {
+          "label": "Бренд",
+          "children": [
+            {
+              "token": "бренда",
+              "kind": "WORD",
+              "column": 16
+            },
+            {
+              "label": "Название бренда",
+              "children": [
+                {
+                  "token": "\"Tom Ford\"",
+                  "kind": "STRING",
+                  "column": 23
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Условие нот",
+          "children": [
+            {
+              "token": "без",
+              "kind": "WORD",
+              "column": 34
+            },
+            {
+              "label": "Перечень нот",
+              "children": [
+                {
+                  "label": "Нота",
+                  "children": [
+                    {
+                      "token": "мускуса",
+                      "kind": "WORD",
+                      "column": 38
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Сезон",
+          "children": [
+            {
+              "token": "для",
+              "kind": "WORD",
+              "column": 46
+            },
+            {
+              "label": "Название сезона",
+              "children": [
+                {
+                  "token": "осени",
+                  "kind": "WORD",
+                  "column": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "children": [
+            {
+              "token": "от",
+              "kind": "WORD",
+              "column": 56
+            },
+            {
+              "label": "Число",
+              "children": [
+                {
+                  "token": "10000",
+                  "kind": "NUMBER",
+                  "column": 59
+                }
+              ]
+            },
+            {
+              "token": "до",
+              "kind": "WORD",
+              "column": 65
+            },
+            {
+              "label": "Число",
+              "children": [
+                {
+                  "token": "20000",
+                  "kind": "NUMBER",
+                  "column": 68
+                }
+              ]
+            },
+            {
+              "token": "рублей",
+              "kind": "WORD",
+              "column": 74
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "line": 21,
+    "query": "найди древесные",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 16,
+      "token_number": 3,
+      "actual": "конец запроса",
+      "expected": [
+        "ароматы"
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 22,
+    "query": "покажи ароматы бренда Dior",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 23,
+      "token_number": 4,
+      "actual": "Dior",
+      "expected": [
+        "название бренда в двойных кавычках: \"Dior\""
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 23,
+    "query": "найди ароматы с нотой",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 22,
+      "token_number": 5,
+      "actual": "конец запроса",
+      "expected": [
+        "бергамота",
+        "кедра",
+        "ванили",
+        "розы",
+        "жасмина",
+        "мускуса",
+        "ветивера",
+        "сандала"
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 24,
+    "query": "найди ароматы с нотами кедра и",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 31,
+      "token_number": 7,
+      "actual": "конец запроса",
+      "expected": [
+        "бергамота",
+        "кедра",
+        "ванили",
+        "розы",
+        "жасмина",
+        "мускуса",
+        "ветивера",
+        "сандала"
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 25,
+    "query": "покажи ароматы дешевле рублей",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 24,
+      "token_number": 4,
+      "actual": "рублей",
+      "expected": [
+        "целое неотрицательное число"
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 26,
+    "query": "найди ароматы для лета бренда \"Dior\"",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 24,
+      "token_number": 5,
+      "actual": "бренда",
+      "expected": [
+        "дешевле",
+        "дороже",
+        "от",
+        "конец запроса"
+      ],
+      "message": "Лишний токен, повтор условия или нарушение порядка частей."
+    }
+  },
+  {
+    "line": 27,
+    "query": "найди ароматы пожалуйста",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 15,
+      "token_number": 3,
+      "actual": "пожалуйста",
+      "expected": [
+        "бренда",
+        "с",
+        "без",
+        "для",
+        "дешевле",
+        "дороже",
+        "от",
+        "конец запроса"
+      ],
+      "message": "Лишний токен, повтор условия или нарушение порядка частей."
+    }
+  },
+  {
+    "line": 28,
+    "query": "ароматы с нотой кедра",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 1,
+      "token_number": 1,
+      "actual": "ароматы",
+      "expected": [
+        "найди",
+        "покажи",
+        "выведи"
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 29,
+    "query": "купи ароматы",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 1,
+      "token_number": 1,
+      "actual": "купи",
+      "expected": [
+        "найди",
+        "покажи",
+        "выведи"
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 30,
+    "query": "найди духи",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 7,
+      "token_number": 2,
+      "actual": "духи",
+      "expected": [
+        "ароматы"
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 31,
+    "query": "найди ароматы с нотами кедра",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 29,
+      "token_number": 6,
+      "actual": "конец запроса",
+      "expected": [
+        "и"
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 32,
+    "query": "найди ароматы с нотой кедра и ванили",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 29,
+      "token_number": 6,
+      "actual": "и",
+      "expected": [
+        "для",
+        "дешевле",
+        "дороже",
+        "от",
+        "конец запроса"
+      ],
+      "message": "Лишний токен, повтор условия или нарушение порядка частей."
+    }
+  },
+  {
+    "line": 33,
+    "query": "найди ароматы с нотой лимона",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 23,
+      "token_number": 5,
+      "actual": "лимона",
+      "expected": [
+        "бергамота",
+        "кедра",
+        "ванили",
+        "розы",
+        "жасмина",
+        "мускуса",
+        "ветивера",
+        "сандала"
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 34,
+    "query": "найди ароматы без",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 18,
+      "token_number": 4,
+      "actual": "конец запроса",
+      "expected": [
+        "бергамота",
+        "кедра",
+        "ванили",
+        "розы",
+        "жасмина",
+        "мускуса",
+        "ветивера",
+        "сандала"
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 35,
+    "query": "найди ароматы для лето",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 19,
+      "token_number": 4,
+      "actual": "лето",
+      "expected": [
+        "зимы",
+        "весны",
+        "лета",
+        "осени"
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 36,
+    "query": "найди ароматы от 5000 10000 рублей",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 23,
+      "token_number": 5,
+      "actual": "10000",
+      "expected": [
+        "до"
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 37,
+    "query": "найди ароматы дороже 5000",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 26,
+      "token_number": 5,
+      "actual": "конец запроса",
+      "expected": [
+        "рублей"
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 38,
+    "query": "найди ароматы бренда \"Dior",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Лексическая",
+      "column": 22,
+      "token_number": 4,
+      "actual": "\"Dior",
+      "expected": [
+        "закрывающая кавычка \""
+      ],
+      "message": "Не закрыто название в кавычках."
+    }
+  },
+  {
+    "line": 39,
+    "query": "найди ароматы бренда \"\"",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Лексическая",
+      "column": 22,
+      "token_number": 4,
+      "actual": "\"\"",
+      "expected": [
+        "непустая строка в кавычках"
+      ],
+      "message": "Название бренда не может быть пустым."
+    }
+  },
+  {
+    "line": 40,
+    "query": "найди ароматы дешевле -100 рублей",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Лексическая",
+      "column": 23,
+      "token_number": 4,
+      "actual": "-",
+      "expected": [
+        "слово",
+        "целое неотрицательное число",
+        "строка в кавычках \"...\""
+      ],
+      "message": "Недопустимый символ. Пунктуация вне кавычек не поддерживается."
+    }
+  },
+  {
+    "line": 41,
+    "query": "найди ароматы для лета для зимы",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 24,
+      "token_number": 5,
+      "actual": "для",
+      "expected": [
+        "дешевле",
+        "дороже",
+        "от",
+        "конец запроса"
+      ],
+      "message": "Лишний токен, повтор условия или нарушение порядка частей."
+    }
+  },
+  {
+    "line": 42,
+    "query": "найди все все ароматы",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 11,
+      "token_number": 3,
+      "actual": "все",
+      "expected": [
+        "ароматы"
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 43,
+    "query": "найди ароматы с кедром",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Синтаксическая",
+      "column": 17,
+      "token_number": 4,
+      "actual": "кедром",
+      "expected": [
+        "нотой",
+        "нотами"
+      ],
+      "message": "Токен не соответствует правилу грамматики."
+    }
+  },
+  {
+    "line": 44,
+    "query": "найди ароматы дешевле 5000рублей",
+    "success": false,
+    "tree": null,
+    "error": {
+      "stage": "Лексическая",
+      "column": 27,
+      "token_number": 5,
+      "actual": "р",
+      "expected": [
+        "пробел между токенами"
+      ],
+      "message": "Между словами, числами и строками в кавычках нужен пробел."
+    }
+  }
+]
