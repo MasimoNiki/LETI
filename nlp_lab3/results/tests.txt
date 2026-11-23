@@ -1,0 +1,27 @@
+test_batch_order_and_independence (__main__.ProjectTests.test_batch_order_and_independence) ... ok
+test_cli_array_contract (__main__.ProjectTests.test_cli_array_contract) ... ok
+test_cli_bom_report_and_foreign_working_directory (__main__.ProjectTests.test_cli_bom_report_and_foreign_working_directory) ... ok
+test_cli_rejects_non_array (__main__.ProjectTests.test_cli_rejects_non_array) ... ok
+test_cli_report_cannot_overwrite_input (__main__.ProjectTests.test_cli_report_cannot_overwrite_input) ... ok
+test_compression_of_filler (__main__.ProjectTests.test_compression_of_filler) ... ok
+test_compression_protects_conditions (__main__.ProjectTests.test_compression_protects_conditions) ... ok
+test_compression_removes_both_commas (__main__.ProjectTests.test_compression_removes_both_commas) ... ok
+test_configuration_validation (__main__.ProjectTests.test_configuration_validation) ... ok
+test_context_sentence_does_not_fit_with_dependent_one (__main__.ProjectTests.test_context_sentence_does_not_fit_with_dependent_one) ... ok
+test_dependent_candidate_waits_for_previous_sentence (__main__.ProjectTests.test_dependent_candidate_waits_for_previous_sentence) ... ok
+test_details_match_output (__main__.ProjectTests.test_details_match_output) ... ok
+test_empty_batch_and_documents (__main__.ProjectTests.test_empty_batch_and_documents) ... ok
+test_graph_with_no_edges (__main__.ProjectTests.test_graph_with_no_edges) ... ok
+test_input_validation (__main__.ProjectTests.test_input_validation) ... ok
+test_jsonl_unicode_separator (__main__.ProjectTests.test_jsonl_unicode_separator) ... ok
+test_lemma_and_negation (__main__.ProjectTests.test_lemma_and_negation) ... ok
+test_length_cannot_exceed_assignment (__main__.ProjectTests.test_length_cannot_exceed_assignment) ... ok
+test_length_limits_and_long_token (__main__.ProjectTests.test_length_limits_and_long_token) ... ok
+test_multisentence_quote_is_not_merged (__main__.ProjectTests.test_multisentence_quote_is_not_merged) ... ok
+test_rouge_known_values (__main__.ProjectTests.test_rouge_known_values) ... ok
+test_title_with_period (__main__.ProjectTests.test_title_with_period) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.287s
+
+OK

@@ -1,0 +1,30 @@
+{
+  "release": "classic-final-2026-11-23",
+  "algorithm": "TF-IDF + weighted LexRank + structural features + MMR + rule compression",
+  "tuning_on_regression_sets": false,
+  "regression_documents": 520,
+  "unit_tests": 22,
+  "sha256": {
+    "compression.py": "b762084f3ca10dc48f499450f0d7456f88bc0c5594ce6be0dfe14da899934bbe",
+    "config.json": "0810f28a0ff411deda7984585754cc75106bcc427dd2eb911171e4a65f362165",
+    "config.py": "40157e54158da9943dc9e12325538ee14638b83d7981629f4b4488872a1d8242",
+    "evaluate.py": "d83718a5ac548ae2a00599708e5ce2237ff681fe71d798288b47949d626dfba5",
+    "main.py": "401c71f02eec20da55dd5e20ca91aad3ad00c3e2f8eb53bfbfc656faf5d23d0b",
+    "metrics.py": "3f295e1695159aeec371ded94951fef2f2adc9f87d0970a2a5bf21b3437bd64a",
+    "prepare_external.py": "96e276adbced27470abe728e2e65e5d8dc3abcbc28f377f52e4b03531deb8d7f",
+    "preprocessing.py": "fa40e430e11039bc86a2d26f4978d997e24d947437cfbf2730d64a721a183e96",
+    "ranking.py": "7ff20277df642338d7b022e578a87d6e23f02ad6eb1ee1a4eb8d6749cc7b9303",
+    "requirements.txt": "e0391c265cb7c13d6dfb01f6b46e21440a951bd2f6fb846f77024a0c09158a0d",
+    "selection.py": "6a32a3d0b439b5a2701153dc2dc010a0547294801d58b33a8bfdda6d1b8423e9",
+    "summarizer.py": "68e24ffdba56cd7237d6f2a8b2f73c33aa6108f3acd44c5cac46deb5c9e5834c",
+    "test_project.py": "f7f35208fb11219a76350a72141d452f80bf748c4fa989a3ddbba736b1c6af45",
+    "tfidf.py": "0d8550b46f21bef7b6641bb9480f0592ba446aed3c1f0c16c3c03d1b227f69c8",
+    "tune.py": "21173731d40f4a56c6d4242b5045e53d030b54b6528ad07d491ddcca50cab894"
+  },
+  "data_sha256": {
+    "external_gazeta200.jsonl": "b08b91912a0f8df40a4e6e869cb9d77b5794ac66c17f78ab49bbe697280c4ef5",
+    "external_xlsum_ru200.jsonl": "4b01519683113b75c7b72db8f0aacadee19f9cd529c776ba1322c6c16fed73ae",
+    "gazeta_check100.jsonl": "5b63a60fa53a599d7e68aa7b1a52eb2d88354ae353dd0dd701310f7145ef1b75",
+    "gazeta_sample20.jsonl": "d30635f1395e01f3ef6e241e3e2aeeb443f06a2da3306358cb1f0bd5b33d59af"
+  }
+}

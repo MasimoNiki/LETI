@@ -1,0 +1,42 @@
+{
+  "protocol": "Повторная проверка после общего исправления контекста; без подбора весов; использованные ранее test-наборы; полные эталоны.",
+  "datasets": {
+    "gazeta": {
+      "count": 200,
+      "rouge_f1": {
+        "rouge1": 0.2836159602358649,
+        "rouge2": 0.12418408681500664,
+        "rougeL": 0.2168584504217448
+      },
+      "length_violations": 0,
+      "fallback_count": 0,
+      "references_over_300": 134,
+      "text_chars": {
+        "min": 2567,
+        "median": 4222.5,
+        "max": 8789
+      },
+      "reference_chars_median": 333.0,
+      "summary_chars_mean": 272.885
+    },
+    "xlsum_ru": {
+      "count": 200,
+      "rouge_f1": {
+        "rouge1": 0.14430391601588602,
+        "rouge2": 0.022864500717212747,
+        "rougeL": 0.10483516761621926
+      },
+      "length_violations": 0,
+      "fallback_count": 0,
+      "references_over_300": 6,
+      "text_chars": {
+        "min": 508,
+        "median": 2958.0,
+        "max": 8723
+      },
+      "reference_chars_median": 185.0,
+      "summary_chars_mean": 270.3
+    }
+  },
+  "algorithm_unchanged": false
+}

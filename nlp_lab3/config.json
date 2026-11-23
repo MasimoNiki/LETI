@@ -1,0 +1,19 @@
+{
+  "max_chars": 300,
+  "use_lemmatization": true,
+  "remove_stopwords": true,
+  "graph_weight": 0.25,
+  "lead_weight": 0.35,
+  "position_weight": 0.4,
+  "lead_sentences": 3,
+  "similarity_threshold": 0.1,
+  "damping": 0.85,
+  "redundancy_weight": 0.3,
+  "duplicate_threshold": 0.85,
+  "min_relative_score": 0.25,
+  "min_gain": 0.12,
+  "length_penalty": 0.2,
+  "min_words": 4,
+  "compression": true,
+  "language_filter": true
+}
